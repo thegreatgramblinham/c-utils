@@ -16,8 +16,8 @@ struct d_enq_item_s
     struct d_enq_item_s *prev_item;
     char *identifier_string_ptr;
 };
-typedef struct *d_enq_item_s d_enq_item_ptr_t;
-typedef struct *d_enq_item_s d_enq_list_ref_ptr_t;
+typedef struct d_enq_item_s *d_enq_item_ptr_t;
+typedef struct d_enq_item_s *d_enq_list_ref_ptr_t;
 ///Function Declarations
 
 #endif
